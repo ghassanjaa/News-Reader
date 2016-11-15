@@ -12,16 +12,24 @@
 		8D0E353C1DDB1BF5005DA9EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D0E353A1DDB1BF5005DA9EE /* Main.storyboard */; };
 		8D0E353E1DDB1BF6005DA9EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D0E353D1DDB1BF6005DA9EE /* Assets.xcassets */; };
 		8D0E35411DDB1BF6005DA9EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D0E353F1DDB1BF6005DA9EE /* LaunchScreen.storyboard */; };
+		8D0E35491DDB1E22005DA9EE /* VCTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D0E35481DDB1E22005DA9EE /* VCTableViewCell.swift */; };
+		8D0E354B1DDB21CB005DA9EE /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D0E354A1DDB21CB005DA9EE /* Article.swift */; };
+		8DACE6721DDB3944003C40A6 /* WebViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DACE6711DDB3944003C40A6 /* WebViewVC.swift */; };
+		8DACE6741DDB4839003C40A6 /* MaterialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DACE6731DDB4839003C40A6 /* MaterialView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		8D0E35331DDB1BF5005DA9EE /* TripoliScopeNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TripoliScopeNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D0E35331DDB1BF5005DA9EE /* News.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = News.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D0E35361DDB1BF5005DA9EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8D0E35381DDB1BF5005DA9EE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8D0E353B1DDB1BF5005DA9EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8D0E353D1DDB1BF6005DA9EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8D0E35401DDB1BF6005DA9EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8D0E35421DDB1BF6005DA9EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D0E35481DDB1E22005DA9EE /* VCTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCTableViewCell.swift; sourceTree = "<group>"; };
+		8D0E354A1DDB21CB005DA9EE /* Article.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
+		8DACE6711DDB3944003C40A6 /* WebViewVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewVC.swift; sourceTree = "<group>"; };
+		8DACE6731DDB4839003C40A6 /* MaterialView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MaterialView.swift; path = ../MaterialView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,7 +54,7 @@
 		8D0E35341DDB1BF5005DA9EE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8D0E35331DDB1BF5005DA9EE /* TripoliScopeNews.app */,
+				8D0E35331DDB1BF5005DA9EE /* News.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -54,11 +62,15 @@
 		8D0E35351DDB1BF5005DA9EE /* TripoliScopeNews */ = {
 			isa = PBXGroup;
 			children = (
-				8D0E35361DDB1BF5005DA9EE /* AppDelegate.swift */,
+				8DACE6731DDB4839003C40A6 /* MaterialView.swift */,
 				8D0E35381DDB1BF5005DA9EE /* ViewController.swift */,
+				8DACE6711DDB3944003C40A6 /* WebViewVC.swift */,
+				8D0E354A1DDB21CB005DA9EE /* Article.swift */,
+				8D0E35481DDB1E22005DA9EE /* VCTableViewCell.swift */,
 				8D0E353A1DDB1BF5005DA9EE /* Main.storyboard */,
-				8D0E353D1DDB1BF6005DA9EE /* Assets.xcassets */,
 				8D0E353F1DDB1BF6005DA9EE /* LaunchScreen.storyboard */,
+				8D0E35361DDB1BF5005DA9EE /* AppDelegate.swift */,
+				8D0E353D1DDB1BF6005DA9EE /* Assets.xcassets */,
 				8D0E35421DDB1BF6005DA9EE /* Info.plist */,
 			);
 			path = TripoliScopeNews;
@@ -67,9 +79,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8D0E35321DDB1BF4005DA9EE /* TripoliScopeNews */ = {
+		8D0E35321DDB1BF4005DA9EE /* News */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8D0E35451DDB1BF6005DA9EE /* Build configuration list for PBXNativeTarget "TripoliScopeNews" */;
+			buildConfigurationList = 8D0E35451DDB1BF6005DA9EE /* Build configuration list for PBXNativeTarget "News" */;
 			buildPhases = (
 				8D0E352F1DDB1BF4005DA9EE /* Sources */,
 				8D0E35301DDB1BF4005DA9EE /* Frameworks */,
@@ -79,9 +91,9 @@
 			);
 			dependencies = (
 			);
-			name = TripoliScopeNews;
+			name = News;
 			productName = TripoliScopeNews;
-			productReference = 8D0E35331DDB1BF5005DA9EE /* TripoliScopeNews.app */;
+			productReference = 8D0E35331DDB1BF5005DA9EE /* News.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -101,7 +113,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 8D0E352E1DDB1BF4005DA9EE /* Build configuration list for PBXProject "TripoliScopeNews" */;
+			buildConfigurationList = 8D0E352E1DDB1BF4005DA9EE /* Build configuration list for PBXProject "News" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -114,7 +126,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8D0E35321DDB1BF4005DA9EE /* TripoliScopeNews */,
+				8D0E35321DDB1BF4005DA9EE /* News */,
 			);
 		};
 /* End PBXProject section */
@@ -137,6 +149,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D0E354B1DDB21CB005DA9EE /* Article.swift in Sources */,
+				8D0E35491DDB1E22005DA9EE /* VCTableViewCell.swift in Sources */,
+				8DACE6721DDB3944003C40A6 /* WebViewVC.swift in Sources */,
+				8DACE6741DDB4839003C40A6 /* MaterialView.swift in Sources */,
 				8D0E35391DDB1BF5005DA9EE /* ViewController.swift in Sources */,
 				8D0E35371DDB1BF5005DA9EE /* AppDelegate.swift in Sources */,
 			);
@@ -261,8 +277,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 767D687EFN;
 				INFOPLIST_FILE = TripoliScopeNews/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ghassanjaam.TripoliScopeNews;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ghassanjaam.news;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -274,8 +291,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 767D687EFN;
 				INFOPLIST_FILE = TripoliScopeNews/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ghassanjaam.TripoliScopeNews;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ghassanjaam.news;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -284,7 +302,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8D0E352E1DDB1BF4005DA9EE /* Build configuration list for PBXProject "TripoliScopeNews" */ = {
+		8D0E352E1DDB1BF4005DA9EE /* Build configuration list for PBXProject "News" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8D0E35431DDB1BF6005DA9EE /* Debug */,
@@ -293,13 +311,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8D0E35451DDB1BF6005DA9EE /* Build configuration list for PBXNativeTarget "TripoliScopeNews" */ = {
+		8D0E35451DDB1BF6005DA9EE /* Build configuration list for PBXNativeTarget "News" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8D0E35461DDB1BF6005DA9EE /* Debug */,
 				8D0E35471DDB1BF6005DA9EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

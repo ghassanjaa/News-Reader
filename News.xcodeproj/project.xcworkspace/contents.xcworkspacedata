@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:TripoliScopeNews.xcodeproj">
+      location = "self:/Users/ghassan/Desktop/TripoliScopeNews/News.xcodeproj">
    </FileRef>
 </Workspace>
